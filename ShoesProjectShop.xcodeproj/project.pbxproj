@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B333E17520D1311F0006943A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E17420D1311F0006943A /* AppDelegate.swift */; };
+		B333E17720D1311F0006943A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E17620D1311F0006943A /* ViewController.swift */; };
+		B333E17C20D1311F0006943A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B333E17B20D1311F0006943A /* Assets.xcassets */; };
+		B333E17F20D1311F0006943A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333E17D20D1311F0006943A /* LaunchScreen.storyboard */; };
+		B333E18A20D1311F0006943A /* ShoesProjectShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E18920D1311F0006943A /* ShoesProjectShopTests.swift */; };
+		B333E19520D1311F0006943A /* ShoesProjectShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E19420D1311F0006943A /* ShoesProjectShopUITests.swift */; };
+		B333E1A520D131880006943A /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1A320D131880006943A /* CollectionsViewController.swift */; };
+		B333E1A620D131880006943A /* CollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1A420D131880006943A /* CollectionCustomCell.swift */; };
+		B333E1AD20D1320A0006943A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1A820D1320A0006943A /* Data.swift */; };
+		B333E1AE20D1320A0006943A /* Clothe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1A920D1320A0006943A /* Clothe.swift */; };
+		B333E1AF20D1320A0006943A /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1AA20D1320A0006943A /* Shoe.swift */; };
+		B333E1B020D1320A0006943A /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1AB20D1320A0006943A /* ContentType.swift */; };
+		B333E1B120D1320A0006943A /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1AC20D1320A0006943A /* Brand.swift */; };
+		B333E1B620D1323A0006943A /* ShoeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1B320D1323A0006943A /* ShoeDetailTableViewController.swift */; };
+		B333E1B720D1323A0006943A /* ShoeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1B420D1323A0006943A /* ShoeImageViewController.swift */; };
+		B333E1B820D1323A0006943A /* ShoeImagesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1B520D1323A0006943A /* ShoeImagesPageViewController.swift */; };
+		B333E1BF20D132560006943A /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1BA20D132550006943A /* SuggestionTableViewCell.swift */; };
+		B333E1C020D132560006943A /* ShoeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1BB20D132550006943A /* ShoeDetailCell.swift */; };
+		B333E1C120D132560006943A /* SuggestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1BC20D132560006943A /* SuggestionCollectionViewCell.swift */; };
+		B333E1C220D132560006943A /* ShoeImagesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1BD20D132560006943A /* ShoeImagesHeaderView.swift */; };
+		B333E1C320D132560006943A /* BuyButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1BE20D132560006943A /* BuyButtonCell.swift */; };
+		B333E1C720D1326E0006943A /* FeedShoeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1C520D1326E0006943A /* FeedShoeTableViewCell.swift */; };
+		B333E1C820D1326E0006943A /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1C620D1326E0006943A /* FeedTableViewController.swift */; };
+		B333E1CC20D1328F0006943A /* CheckoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1CA20D1328F0006943A /* CheckoutTableViewController.swift */; };
+		B333E1CD20D1328F0006943A /* ShoppingBagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1CB20D1328F0006943A /* ShoppingBagTableViewController.swift */; };
+		B333E1D120D132A50006943A /* BrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1CF20D132A50006943A /* BrandTableViewCell.swift */; };
+		B333E1D220D132A50006943A /* BrandsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333E1D020D132A50006943A /* BrandsController.swift */; };
+		B3DBAEEC20D1331400AAE19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DBAEEB20D1331400AAE19C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B333E18620D1311F0006943A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B333E16920D1311F0006943A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B333E17020D1311F0006943A;
+			remoteInfo = ShoesProjectShop;
+		};
+		B333E19120D1311F0006943A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B333E16920D1311F0006943A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B333E17020D1311F0006943A;
+			remoteInfo = ShoesProjectShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B333E17120D1311F0006943A /* ShoesProjectShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoesProjectShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B333E17420D1311F0006943A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B333E17620D1311F0006943A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B333E17B20D1311F0006943A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B333E17E20D1311F0006943A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B333E18020D1311F0006943A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333E18520D1311F0006943A /* ShoesProjectShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoesProjectShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B333E18920D1311F0006943A /* ShoesProjectShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesProjectShopTests.swift; sourceTree = "<group>"; };
+		B333E18B20D1311F0006943A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333E19020D1311F0006943A /* ShoesProjectShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoesProjectShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B333E19420D1311F0006943A /* ShoesProjectShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesProjectShopUITests.swift; sourceTree = "<group>"; };
+		B333E19620D1311F0006943A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333E1A320D131880006943A /* CollectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		B333E1A420D131880006943A /* CollectionCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCustomCell.swift; sourceTree = "<group>"; };
+		B333E1A820D1320A0006943A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B333E1A920D1320A0006943A /* Clothe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clothe.swift; sourceTree = "<group>"; };
+		B333E1AA20D1320A0006943A /* Shoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		B333E1AB20D1320A0006943A /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		B333E1AC20D1320A0006943A /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		B333E1B320D1323A0006943A /* ShoeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeDetailTableViewController.swift; sourceTree = "<group>"; };
+		B333E1B420D1323A0006943A /* ShoeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImageViewController.swift; sourceTree = "<group>"; };
+		B333E1B520D1323A0006943A /* ShoeImagesPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImagesPageViewController.swift; sourceTree = "<group>"; };
+		B333E1BA20D132550006943A /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		B333E1BB20D132550006943A /* ShoeDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeDetailCell.swift; sourceTree = "<group>"; };
+		B333E1BC20D132560006943A /* SuggestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		B333E1BD20D132560006943A /* ShoeImagesHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImagesHeaderView.swift; sourceTree = "<group>"; };
+		B333E1BE20D132560006943A /* BuyButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyButtonCell.swift; sourceTree = "<group>"; };
+		B333E1C520D1326E0006943A /* FeedShoeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedShoeTableViewCell.swift; sourceTree = "<group>"; };
+		B333E1C620D1326E0006943A /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		B333E1CA20D1328F0006943A /* CheckoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewController.swift; sourceTree = "<group>"; };
+		B333E1CB20D1328F0006943A /* ShoppingBagTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingBagTableViewController.swift; sourceTree = "<group>"; };
+		B333E1CF20D132A50006943A /* BrandTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandTableViewCell.swift; sourceTree = "<group>"; };
+		B333E1D020D132A50006943A /* BrandsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsController.swift; sourceTree = "<group>"; };
+		B3DBAEEB20D1331400AAE19C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B333E16E20D1311F0006943A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18220D1311F0006943A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18D20D1311F0006943A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B333E16820D1311F0006943A = {
+			isa = PBXGroup;
+			children = (
+				B333E17320D1311F0006943A /* ShoesProjectShop */,
+				B333E18820D1311F0006943A /* ShoesProjectShopTests */,
+				B333E19320D1311F0006943A /* ShoesProjectShopUITests */,
+				B333E17220D1311F0006943A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B333E17220D1311F0006943A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B333E17120D1311F0006943A /* ShoesProjectShop.app */,
+				B333E18520D1311F0006943A /* ShoesProjectShopTests.xctest */,
+				B333E19020D1311F0006943A /* ShoesProjectShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B333E17320D1311F0006943A /* ShoesProjectShop */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1CE20D132960006943A /* BRANDS */,
+				B333E1C920D1327A0006943A /* SHOPPING BAG */,
+				B333E1C420D1325F0006943A /* FEED */,
+				B333E1B920D132400006943A /* Views */,
+				B333E1B220D132130006943A /* DETAIL */,
+				B333E1A720D1318C0006943A /* MODEL */,
+				B333E1A220D131640006943A /* CollectionView */,
+				B333E17420D1311F0006943A /* AppDelegate.swift */,
+				B333E17620D1311F0006943A /* ViewController.swift */,
+				B3DBAEEB20D1331400AAE19C /* Main.storyboard */,
+				B333E17B20D1311F0006943A /* Assets.xcassets */,
+				B333E17D20D1311F0006943A /* LaunchScreen.storyboard */,
+				B333E18020D1311F0006943A /* Info.plist */,
+			);
+			path = ShoesProjectShop;
+			sourceTree = "<group>";
+		};
+		B333E18820D1311F0006943A /* ShoesProjectShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B333E18920D1311F0006943A /* ShoesProjectShopTests.swift */,
+				B333E18B20D1311F0006943A /* Info.plist */,
+			);
+			path = ShoesProjectShopTests;
+			sourceTree = "<group>";
+		};
+		B333E19320D1311F0006943A /* ShoesProjectShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B333E19420D1311F0006943A /* ShoesProjectShopUITests.swift */,
+				B333E19620D1311F0006943A /* Info.plist */,
+			);
+			path = ShoesProjectShopUITests;
+			sourceTree = "<group>";
+		};
+		B333E1A220D131640006943A /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1A420D131880006943A /* CollectionCustomCell.swift */,
+				B333E1A320D131880006943A /* CollectionsViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B333E1A720D1318C0006943A /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1AA20D1320A0006943A /* Shoe.swift */,
+				B333E1A820D1320A0006943A /* Data.swift */,
+				B333E1A920D1320A0006943A /* Clothe.swift */,
+				B333E1AC20D1320A0006943A /* Brand.swift */,
+				B333E1AB20D1320A0006943A /* ContentType.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		B333E1B220D132130006943A /* DETAIL */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1B320D1323A0006943A /* ShoeDetailTableViewController.swift */,
+				B333E1B520D1323A0006943A /* ShoeImagesPageViewController.swift */,
+				B333E1B420D1323A0006943A /* ShoeImageViewController.swift */,
+			);
+			path = DETAIL;
+			sourceTree = "<group>";
+		};
+		B333E1B920D132400006943A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1BE20D132560006943A /* BuyButtonCell.swift */,
+				B333E1BB20D132550006943A /* ShoeDetailCell.swift */,
+				B333E1BD20D132560006943A /* ShoeImagesHeaderView.swift */,
+				B333E1BC20D132560006943A /* SuggestionCollectionViewCell.swift */,
+				B333E1BA20D132550006943A /* SuggestionTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B333E1C420D1325F0006943A /* FEED */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1C520D1326E0006943A /* FeedShoeTableViewCell.swift */,
+				B333E1C620D1326E0006943A /* FeedTableViewController.swift */,
+			);
+			path = FEED;
+			sourceTree = "<group>";
+		};
+		B333E1C920D1327A0006943A /* SHOPPING BAG */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1CB20D1328F0006943A /* ShoppingBagTableViewController.swift */,
+				B333E1CA20D1328F0006943A /* CheckoutTableViewController.swift */,
+			);
+			path = "SHOPPING BAG";
+			sourceTree = "<group>";
+		};
+		B333E1CE20D132960006943A /* BRANDS */ = {
+			isa = PBXGroup;
+			children = (
+				B333E1D020D132A50006943A /* BrandsController.swift */,
+				B333E1CF20D132A50006943A /* BrandTableViewCell.swift */,
+			);
+			path = BRANDS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B333E17020D1311F0006943A /* ShoesProjectShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333E19920D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShop" */;
+			buildPhases = (
+				B333E16D20D1311F0006943A /* Sources */,
+				B333E16E20D1311F0006943A /* Frameworks */,
+				B333E16F20D1311F0006943A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoesProjectShop;
+			productName = ShoesProjectShop;
+			productReference = B333E17120D1311F0006943A /* ShoesProjectShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B333E18420D1311F0006943A /* ShoesProjectShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333E19C20D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShopTests" */;
+			buildPhases = (
+				B333E18120D1311F0006943A /* Sources */,
+				B333E18220D1311F0006943A /* Frameworks */,
+				B333E18320D1311F0006943A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B333E18720D1311F0006943A /* PBXTargetDependency */,
+			);
+			name = ShoesProjectShopTests;
+			productName = ShoesProjectShopTests;
+			productReference = B333E18520D1311F0006943A /* ShoesProjectShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B333E18F20D1311F0006943A /* ShoesProjectShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333E19F20D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShopUITests" */;
+			buildPhases = (
+				B333E18C20D1311F0006943A /* Sources */,
+				B333E18D20D1311F0006943A /* Frameworks */,
+				B333E18E20D1311F0006943A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B333E19220D1311F0006943A /* PBXTargetDependency */,
+			);
+			name = ShoesProjectShopUITests;
+			productName = ShoesProjectShopUITests;
+			productReference = B333E19020D1311F0006943A /* ShoesProjectShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B333E16920D1311F0006943A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Жанибек";
+				TargetAttributes = {
+					B333E17020D1311F0006943A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B333E18420D1311F0006943A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B333E17020D1311F0006943A;
+					};
+					B333E18F20D1311F0006943A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B333E17020D1311F0006943A;
+					};
+				};
+			};
+			buildConfigurationList = B333E16C20D1311F0006943A /* Build configuration list for PBXProject "ShoesProjectShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B333E16820D1311F0006943A;
+			productRefGroup = B333E17220D1311F0006943A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B333E17020D1311F0006943A /* ShoesProjectShop */,
+				B333E18420D1311F0006943A /* ShoesProjectShopTests */,
+				B333E18F20D1311F0006943A /* ShoesProjectShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B333E16F20D1311F0006943A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DBAEEC20D1331400AAE19C /* Main.storyboard in Resources */,
+				B333E17F20D1311F0006943A /* LaunchScreen.storyboard in Resources */,
+				B333E17C20D1311F0006943A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18320D1311F0006943A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18E20D1311F0006943A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B333E16D20D1311F0006943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B333E1AE20D1320A0006943A /* Clothe.swift in Sources */,
+				B333E1B120D1320A0006943A /* Brand.swift in Sources */,
+				B333E1D220D132A50006943A /* BrandsController.swift in Sources */,
+				B333E1B020D1320A0006943A /* ContentType.swift in Sources */,
+				B333E1CC20D1328F0006943A /* CheckoutTableViewController.swift in Sources */,
+				B333E1A620D131880006943A /* CollectionCustomCell.swift in Sources */,
+				B333E1B720D1323A0006943A /* ShoeImageViewController.swift in Sources */,
+				B333E1C120D132560006943A /* SuggestionCollectionViewCell.swift in Sources */,
+				B333E1D120D132A50006943A /* BrandTableViewCell.swift in Sources */,
+				B333E1AF20D1320A0006943A /* Shoe.swift in Sources */,
+				B333E1B820D1323A0006943A /* ShoeImagesPageViewController.swift in Sources */,
+				B333E1C020D132560006943A /* ShoeDetailCell.swift in Sources */,
+				B333E1C820D1326E0006943A /* FeedTableViewController.swift in Sources */,
+				B333E1AD20D1320A0006943A /* Data.swift in Sources */,
+				B333E1A520D131880006943A /* CollectionsViewController.swift in Sources */,
+				B333E1CD20D1328F0006943A /* ShoppingBagTableViewController.swift in Sources */,
+				B333E17720D1311F0006943A /* ViewController.swift in Sources */,
+				B333E17520D1311F0006943A /* AppDelegate.swift in Sources */,
+				B333E1B620D1323A0006943A /* ShoeDetailTableViewController.swift in Sources */,
+				B333E1C720D1326E0006943A /* FeedShoeTableViewCell.swift in Sources */,
+				B333E1C220D132560006943A /* ShoeImagesHeaderView.swift in Sources */,
+				B333E1BF20D132560006943A /* SuggestionTableViewCell.swift in Sources */,
+				B333E1C320D132560006943A /* BuyButtonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18120D1311F0006943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B333E18A20D1311F0006943A /* ShoesProjectShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333E18C20D1311F0006943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B333E19520D1311F0006943A /* ShoesProjectShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B333E18720D1311F0006943A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B333E17020D1311F0006943A /* ShoesProjectShop */;
+			targetProxy = B333E18620D1311F0006943A /* PBXContainerItemProxy */;
+		};
+		B333E19220D1311F0006943A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B333E17020D1311F0006943A /* ShoesProjectShop */;
+			targetProxy = B333E19120D1311F0006943A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B333E17D20D1311F0006943A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B333E17E20D1311F0006943A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B333E19720D1311F0006943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B333E19820D1311F0006943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B333E19A20D1311F0006943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B333E19B20D1311F0006943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B333E19D20D1311F0006943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoesProjectShop.app/ShoesProjectShop";
+			};
+			name = Debug;
+		};
+		B333E19E20D1311F0006943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoesProjectShop.app/ShoesProjectShop";
+			};
+			name = Release;
+		};
+		B333E1A020D1311F0006943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoesProjectShop;
+			};
+			name = Debug;
+		};
+		B333E1A120D1311F0006943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesProjectShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dfsv.ShoesProjectShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoesProjectShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B333E16C20D1311F0006943A /* Build configuration list for PBXProject "ShoesProjectShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333E19720D1311F0006943A /* Debug */,
+				B333E19820D1311F0006943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333E19920D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333E19A20D1311F0006943A /* Debug */,
+				B333E19B20D1311F0006943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333E19C20D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333E19D20D1311F0006943A /* Debug */,
+				B333E19E20D1311F0006943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333E19F20D1311F0006943A /* Build configuration list for PBXNativeTarget "ShoesProjectShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333E1A020D1311F0006943A /* Debug */,
+				B333E1A120D1311F0006943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B333E16920D1311F0006943A /* Project object */;
+}
